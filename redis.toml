@@ -1,0 +1,7 @@
+[template]
+src = "redis.conf.tmpl"
+dest = "/etc/redis/redis.conf"
+keys = [
+	"/maxmemory",
+	"/maxmemory/policy",
+]
